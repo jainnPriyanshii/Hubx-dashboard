@@ -87,7 +87,7 @@ export default function Dashboard() {
           <MenuItem value="90 Days">Last 90 Days</MenuItem>
         </Select>
         <Button sx={{ backgroundColor: '#00C49F', color :'white',width:'200px' ,fontWeight:'bold'}}
-      onClick={() => CaculatorWithRedirect()}
+      onClick={() => loginWithRedirect()}
       href="/calculator"
       
     >
